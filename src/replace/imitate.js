@@ -1,6 +1,6 @@
 import _ from '../util/lodash-wrap'
 import isConstructor from './is-constructor'
-import log from '../log'
+import log from '../wrap/log'
 import stringifyAnything from '../stringify/anything'
 import tdConstructor from '../constructor'
 import tdFunction from '../function'

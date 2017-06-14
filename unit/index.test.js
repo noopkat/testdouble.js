@@ -15,7 +15,7 @@ module.exports = () => {
   const config = td.replace('../src/config').default
   const version = td.replace('../src/version').default
 
-  const subject = require('../src')
+  const subject = require('../src/index')
 
   assert.deepEqual(subject, {
     func: func,

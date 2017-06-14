@@ -1,7 +1,7 @@
 import _ from './util/lodash-wrap'
 import copyProperties from './util/copy-properties'
 import isConstructor from './replace/is-constructor'
-import log from './log'
+import log from './wrap/log'
 import tdConstructor from './constructor'
 import tdFunction from './function'
 
